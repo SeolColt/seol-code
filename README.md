@@ -1,0 +1,2 @@
+# seol-code
+ a beginner
