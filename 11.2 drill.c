@@ -28,16 +28,18 @@ int main(){
 
 
 
-                                                          //3. print the number which can be divided by 24 between a and b
-    int number;                                           //the very number between a and b
-    printf("enter the min and max number:");              //promp the user to enter the min and max number
-    int a,b;                                              //the min and max number
-    int total = 0;                                         //the total of the very number between a and b
-    scanf("%d %d",&a,&b);                                  //get the min and max number from the user
-    for(number = a; number<=b;number++){    
+                                                            //3. print the number which can be divided by 24 between a and b
+    int number;                                             //the very number between a and b
+    printf("enter the min and max number:");                //promp the user to enter the min and max number
+    int a,b;                                                //the min and max number
+    int total = 0;                                          //the total of the very number between a and b
+    scanf("%d %d",&a,&b);                                   //get the min and max number from the user
+    int min = a < b ? a : b;                                //judge which number is min
+    int max = a < b ? b : a;                                //judge which number is max
+    for(number = min; number<=max;number++){    
         if(number % 24 == 0){
-            total++;                                       //increase the total when the number can be divided by 24
-            printf("%d is divisible by 24 \n",number);    //indicate the number which can be divided by 24
+            total++;                                        //increase the total when the number can be divided by 24
+            printf("%d is divisible by 24 \n",number);      //indicate the number which can be divided by 24
         }
     }
      printf("the total is %d\n",total);                     //print the total of the very number between a and b    
