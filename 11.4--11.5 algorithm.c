@@ -16,6 +16,7 @@ int main(){
     // else{                                                       //if n is not reduced to 1, it means the original n is not a power of 2
     //     printf("n is not a power of 2\n");
     // }
+
 //part 2 :      calculate the times to fold a paper to exceed the height of the Everest                    
     // double thickness = 0.1;                                                //initial thickness of the paper in mm
     // double everest_height = 8848000;                                       //height of the Everest in mm
@@ -27,20 +28,36 @@ int main(){
     //     printf("the times to fold the paper to exceed the height of the Everest is: %d\n", fold_count);         //output the fold count
 
 //part3
-    int number;                                          //the number to be reversed                                                                                                     
-    int temp;                                            //a temporary variable to store the last digit of number                   
-    int result=0;                                        //the reversed number                 
-    printf("Enter a positive integer: ");                //input number
-    scanf("%d", &number);                                //read number                         
-    while(number!=0){                                    //keep reversing while number is not 0
-        temp = number %10;                                          
-        result = result *10 + temp;                      //append the last digit of number to result
-        printf("%d", result);                            //output the reversed number step by step
-        number /=10;                                     //remove the last digit from number                        
+    // int number;                                          //the number to be reversed                                                                                                     
+    // int temp;                                            //a temporary variable to store the last digit of number                   
+    // int result=0;                                        //the reversed number                 
+    // printf("Enter a positive integer: ");                //input number
+    // scanf("%d", &number);                                //read number                         
+    // while(number!=0){                                    //keep reversing while number is not 0
+    //     temp = number %10;                                          
+    //     result = result *10 + temp;                      //append the last digit of number to result
+    //     number /=10;      
+    // }               
+    // printf("%d", result);                            //output the reversed number step by step    
+    
+// part4
+    // int x;                                              //the positive integer to find the integer square root of
+    // printf("enter positve integer:");                   //input x
+    // scanf("%d", &x);                                    //read x 
+    // int a=0;                                            //a is the candidate for the integer square root of x   
+    // int b=1;                                            //b is the next integer after a                                        
+    // int count;
+    // while(1){                                            //keep searching until the integer square root is found
+    //     a++;b++;
+    //     if (a*a<x && b*b>x){
+    //         printf("the integer square root of %d is %d\n", x, a);                  //output the integer square root of x
+    //         break;                                                                  //stop the while loop
+    //     }
+  
+}
 
 
 
-    }
      
 
 
