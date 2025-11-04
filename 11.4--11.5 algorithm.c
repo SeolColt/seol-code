@@ -27,8 +27,21 @@ int main(){
     //     printf("the times to fold the paper to exceed the height of the Everest is: %d\n", fold_count);         //output the fold count
 
 //part3
+    int number;                                          //the number to be reversed                                                                                                     
+    int temp;                                            //a temporary variable to store the last digit of number                   
+    int result=0;                                        //the reversed number                 
+    printf("Enter a positive integer: ");                //input number
+    scanf("%d", &number);                                //read number                         
+    while(number!=0){                                    //keep reversing while number is not 0
+        temp = number %10;                                          
+        result = result *10 + temp;                      //append the last digit of number to result
+        printf("%d", result);                            //output the reversed number step by step
+        number /=10;                                     //remove the last digit from number                        
 
 
+
+    }
+     
 
 
 
