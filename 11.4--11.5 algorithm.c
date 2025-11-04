@@ -53,13 +53,7 @@ int main(){
     //         printf("the integer square root of %d is %d\n", x, a);                  //output the integer square root of x
     //         break;                                                                  //stop the while loop
     //     }
-  
     // }
-
-
-
-     
-
 
 
 return 0;
