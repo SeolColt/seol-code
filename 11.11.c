@@ -30,25 +30,25 @@ int main(){
     // }
 
 //part 4 sum of a number's each digit that equal 15 (number ranges from 0 to 1000)
- long number, original;
-    printf("enter a number between 0 and 1000: ");
-    scanf("%ld", &number);
-    original = number;  // 保存原始输入值
+//  long number, original;
+//     printf("enter a number between 0 and 1000: ");
+//     scanf("%ld", &number);
+//     original = number;  // 保存原始输入值
+//     int sum = 0;
+//     int digit;
+//     while (number != 0) {
+//         digit = number % 10;
+//         sum = sum + digit;
+//         number = number / 10;
+//     }
+//     if (sum == 15) {
+//         printf("the sum of %ld's each digit equal 15\n", original);
+//     } else {
+//         printf("the sum of %ld's each digit does not equal 15\n", original);
+//     }
 
-    int sum = 0;
-    int digit;
+//part 5 
 
-    while (number != 0) {
-        digit = number % 10;
-        sum = sum + digit;
-        number = number / 10;
-    }
-
-    if (sum == 15) {
-        printf("the sum of %ld's each digit equal 15\n", original);
-    } else {
-        printf("the sum of %ld's each digit does not equal 15\n", original);
-    }
 
 return 0;
 }
