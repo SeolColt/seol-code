@@ -19,7 +19,7 @@ int main(){
         int num2;
         scanf("%d",&num2);
         if (num2>100 || num2<1) {
-            printf("your number is valid,please enter a number between 1 to 100\n");       
+            printf("your number is invalid,please enter a number between 1 to 100\n");       
         }
         else if(num2>num1){
             printf("your guess is too high\n");
