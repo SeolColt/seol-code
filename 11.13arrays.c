@@ -7,7 +7,7 @@ void printarr(int arr[],int len){
     printf("array length = %d\n", len);
 }
 int main(){
-    int arr1[] = {1,55,6,9,4};                                                  
+    int arr1[5] = {1,55,6,9,4};                                                  
     int len1 = sizeof(arr1)/ sizeof(arr1[0]);
     printarr(arr1,len1);
     printf("oringinal:%zu\n",sizeof(arr1));                                     //arr1 is a normal variable here and its size is 20 bytes
